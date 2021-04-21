@@ -16,6 +16,13 @@
 #header .ml-3 {
     font-size: 180%;
 }
+#formName {
+    transition: all 0.4s;
+    color: rgb(165, 165, 165);
+}
+#formName:hover{
+    color: white;
+}
 #headertabs{
     transition: all 0.2s;
 }
@@ -65,7 +72,7 @@
 
 #footer {
   object-position: bottom;
-  transform: translateX(-0em);
+  transform: translateX(-2em);
   width: 100%;
   color: whitesmoke;
   padding: 1%;
